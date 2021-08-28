@@ -1,0 +1,22 @@
+.list {
+  /* max-width: 500px; */
+  max-width: 440px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.listItemText {
+  margin-right: 10px;
+}
